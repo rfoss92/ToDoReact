@@ -1,0 +1,60 @@
+html {
+  height:100%;
+  overflow-x: hidden;
+}
+body {
+  color: white;
+  font: bold 16px Helvetica, Arial, sans-serif;
+  text-align: center;  
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) 50%),
+  url('./img/desk.jpg') fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  padding: 50px 15%;
+}
+h2 {
+  font: bold 4rem Helvetica, Arial, sans-serif;
+}
+form {
+  display: inline;
+}
+input {
+  text-align: center;
+  width: 125px;
+  height: 40px;
+  color: black;
+}
+button {
+  background: #0086b3;
+  color: white;
+  border: none;
+  padding: 1rem;
+  width: 40px;
+}
+ul {
+  margin-top: 50px;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  text-align: center;
+  margin: 10px;
+  font: bold 2rem Helvetica, Arial, sans-serif;
+  cursor: pointer;  
+}
+.grid-container {
+  display: flex;
+  justify-content: space-around;  
+}
+.fa-minus {
+  background: red;
+  width: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
